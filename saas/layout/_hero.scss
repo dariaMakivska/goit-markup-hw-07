@@ -1,0 +1,103 @@
+.main-section {
+    background-color: var(--background-color-text);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/main_img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+}
+
+.primary-title {
+    margin-left: 252px;
+    margin-right: 252px;
+    width: 696px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--light-color);
+    text-align: center;
+}
+
+.modal-btn {
+    display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+    min-width: 200px;
+    padding: 10px 16px;
+    border: 1px solid var(--acent-color);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--light-color);
+    background-color: var(--acent-color);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--background-color-btn-colored);
+}
+
+.icons-list-decisions {
+    display: flex;
+}
+
+
+.icons-item-decisions:not(:last-child) {
+    margin-right: 30px;
+}
+
+.first-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-icons {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.decisions-list {
+    display: flex;
+}
+
+.decisions-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.decisions-item {
+    width: 270px;
+}
+
+.decisions-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.decisions-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--tittle-text-color);
+}
