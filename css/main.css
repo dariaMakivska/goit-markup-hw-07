@@ -414,14 +414,11 @@ ul {
 .clients-list {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .clients-link-list:not(:last-child) {
   margin-right: 30px;
-}
-
-.clients-list {
-  margin-top: 50px;
 }
 
 .clients-title {
