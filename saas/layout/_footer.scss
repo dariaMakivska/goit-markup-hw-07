@@ -10,13 +10,11 @@
     flex-grow: 1;
 }
 
+.footer-logo-margin{
+    margin-right: 0;
+}
 .footer-logo {
     color: var(--light-color);
-    font-family: var(--secondary-font-family);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .adress-list {
@@ -87,10 +85,8 @@
     &:hover,
     &:focus {
         background-color: var(--acent-color);
-    }&
+    }
 }
-
-
 
 .social-icons-footer {
     fill: var(--light-color);
