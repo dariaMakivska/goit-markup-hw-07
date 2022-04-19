@@ -13,7 +13,7 @@
 .footer-logo-margin{
     margin-right: 0;
 }
-.footer-logo {
+.logo__footer {
     color: var(--light-color);
 }
 
@@ -68,11 +68,11 @@
     display: flex;
 }
 
-.social-list-link-footer:not(:last-child) {
+.social-list__items-footer:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-link-footer {
+.social-list__link-footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@
     }
 }
 
-.social-icons-footer {
+.social-list__icons-footer {
     fill: var(--light-color);
 }
 
